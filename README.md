@@ -14,7 +14,7 @@
 }
 
 body{
-    background-image:url("https://images.unsplash.com/photo-1506744038136-46273834b3fb");
+    background-image:url("02-as-paisagens-naturais-mais-lindas-do-brasil-lencois-maranhenses2-min.avif");
     background-size:cover;
     background-position:center;
     background-attachment:fixed;
