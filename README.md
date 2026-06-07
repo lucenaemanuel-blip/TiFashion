@@ -123,7 +123,8 @@ footer{
 
     <div class="produto">
         <div class="carrossel">
-            <img src="https://images.unsplash.com/photo-1602143407151-7111542de6e8" alt="Garrafa 1">
+            <img src="WhatsApp Image 2026-06-07 at 8.46.01 PM.jpeg">
+            <img src="WhatsApp Image 2026-06-07 at 8.46.12 PM.jpeg">
             <img src="WhatsApp Image 2026-06-03 at 3.20.33 PM.jpeg">
         </div>
 
