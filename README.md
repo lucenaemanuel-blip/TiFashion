@@ -126,8 +126,6 @@ footer{
         <div class="carrossel">
             <img src="https://images.unsplash.com/photo-1602143407151-7111542de6e8" alt="Garrafa 1">
             <img src="WhatsApp Image 2026-06-03 at 3.20.33 PM.jpeg">
-            <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab" alt="Garrafa 3">
-            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="Garrafa 4">
         </div>
 
         <div class="info">
@@ -139,8 +137,6 @@ footer{
         <div class="carrossel">
             <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735" alt="Árvore 1">
             <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e" alt="Árvore 2">
-            <img src="https://images.unsplash.com/photo-1426604966848-d7adac402bff" alt="Árvore 3">
-            <img src="https://images.unsplash.com/photo-1473773508845-188df298d2d1" alt="Árvore 4">
         </div>
 
         <div class="info">
@@ -152,8 +148,6 @@ footer{
         <div class="carrossel">
             <img src="https://images.unsplash.com/photo-1492496913980-501348b61469" alt="Kit 1">
             <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" alt="Kit 2">
-            <img src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07" alt="Kit 3">
-            <img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e" alt="Kit 4">
         </div>
 
         <div class="info">
@@ -165,8 +159,6 @@ footer{
         <div class="carrossel">
             <img src="https://images.unsplash.com/photo-1511497584788-876760111969" alt="Planta 1">
             <img src="https://images.unsplash.com/photo-1463936575829-25148e1db1b8" alt="Planta 2">
-            <img src="https://images.unsplash.com/photo-1459156212016-c812468e2115" alt="Planta 3">
-            <img src="https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5" alt="Planta 4">
         </div>
 
         <div class="info">
