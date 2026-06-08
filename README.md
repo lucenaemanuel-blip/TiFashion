@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
@@ -127,129 +128,130 @@ footer{
 
 <section class="produtos">
 
-    <!-- Produto 1 -->
-    <div class="produto">
+<!-- PRODUTO 1 -->
+<div class="produto">
 
-        <img class="imagem-principal"
-             src="WhatsApp Image 2026-06-07 at 8.46.01 PM.jpeg"
-             alt="Garrafa">
+    <img class="imagem-principal"
+         src="WhatsApp Image 2026-06-07 at 8.46.01 PM.jpeg">
 
-        <div class="miniaturas">
-            <img src="WhatsApp Image 2026-06-07 at 8.46.01 PM.jpeg"
-                 onclick="trocarImagem(this)"
-                 style="border:2px solid #2e7d32;">
+    <div class="miniaturas">
+        <img src="WhatsApp Image 2026-06-07 at 8.46.01 PM.jpeg"
+             data-imagem="WhatsApp Image 2026-06-07 at 8.46.01 PM.jpeg"
+             onclick="trocarImagem(this)"
+             style="border:2px solid #2e7d32;">
 
-            <img src="WhatsApp Image 2026-06-07 at 8.46.12 PM.jpeg"
-                 onclick="trocarImagem(this)">
+        <img src="WhatsApp Image 2026-06-07 at 8.46.12 PM.jpeg"
+             data-imagem="WhatsApp Image 2026-06-07 at 8.46.12 PM.jpeg"
+             onclick="trocarImagem(this)">
 
-            <img src="WhatsApp Image 2026-06-03 at 3.20.33 PM.jpeg"
-                 onclick="trocarImagem(this)">
-        </div>
-
-        <div class="info">
-            <h3>Garrafa Reutilizável</h3>
-        </div>
-
+        <img src="WhatsApp Image 2026-06-03 at 3.20.33 PM.jpeg"
+             data-imagem="WhatsApp Image 2026-06-03 at 3.20.33 PM.jpeg"
+             onclick="trocarImagem(this)">
     </div>
 
-    <!-- Produto 2 -->
-    <div class="produto">
-
-        <img class="imagem-principal"
-             src="WhatsApp Image 2026-06-07 at 8.45.54 PM.jpeg"
-             alt="Muda">
-
-        <div class="miniaturas">
-            <img src="WhatsApp Image 2026-06-07 at 8.45.54 PM.jpeg"
-                 onclick="trocarImagem(this)"
-                 style="border:2px solid #2e7d32;">
-
-            <img src="WhatsApp Image 2026-06-07 at 8.46.09 PM.jpeg"
-                 onclick="trocarImagem(this)">
-
-            <img src="WhatsApp Image 2026-06-03 at 3.20.37 PM.jpeg"
-                 onclick="trocarImagem(this)">
-        </div>
-
-        <div class="info">
-            <h3>Muda de Árvore</h3>
-        </div>
-
+    <div class="info">
+        <h3>Garrafa Reutilizável</h3>
     </div>
 
-    <!-- Produto 3 -->
-    <div class="produto">
+</div>
 
-        <img class="imagem-principal"
-             src="https://images.unsplash.com/photo-1492496913980-501348b61469"
-             alt="Kit">
+<!-- PRODUTO 2 -->
+<div class="produto">
 
-        <div class="miniaturas">
-            <img src="https://images.unsplash.com/photo-1492496913980-501348b61469"
-                 onclick="trocarImagem(this)"
-                 style="border:2px solid #2e7d32;">
+    <img class="imagem-principal"
+         src="WhatsApp Image 2026-06-07 at 8.45.54 PM.jpeg">
 
-            <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6"
-                 onclick="trocarImagem(this)">
+    <div class="miniaturas">
+        <img src="WhatsApp Image 2026-06-07 at 8.45.54 PM.jpeg"
+             data-imagem="WhatsApp Image 2026-06-07 at 8.45.54 PM.jpeg"
+             onclick="trocarImagem(this)"
+             style="border:2px solid #2e7d32;">
 
-            <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735"
-                 onclick="trocarImagem(this)">
-        </div>
+        <img src="WhatsApp Image 2026-06-07 at 8.46.09 PM.jpeg"
+             data-imagem="WhatsApp Image 2026-06-07 at 8.46.09 PM.jpeg"
+             onclick="trocarImagem(this)">
 
-        <div class="info">
-            <h3>Kit Sustentável</h3>
-        </div>
-
+        <img src="WhatsApp Image 2026-06-03 at 3.20.37 PM.jpeg"
+             data-imagem="WhatsApp Image 2026-06-03 at 3.20.37 PM.jpeg"
+             onclick="trocarImagem(this)">
     </div>
 
-    <!-- Produto 4 -->
-    <div class="produto">
-
-        <img class="imagem-principal"
-             src="https://images.unsplash.com/photo-1511497584788-876760111969"
-             alt="Planta">
-
-        <div class="miniaturas">
-            <img src="https://images.unsplash.com/photo-1511497584788-876760111969"
-                 onclick="trocarImagem(this)"
-                 style="border:2px solid #2e7d32;">
-
-            <img src="https://images.unsplash.com/photo-1463936575829-25148e1db1b8"
-                 onclick="trocarImagem(this)">
-        </div>
-
-        <div class="info">
-            <h3>Planta Decorativa</h3>
-        </div>
-
+    <div class="info">
+        <h3>Muda de Árvore</h3>
     </div>
+
+</div>
+
+<!-- PRODUTO 3 -->
+<div class="produto">
+
+    <img class="imagem-principal"
+         src="https://images.unsplash.com/photo-1492496913980-501348b61469">
+
+    <div class="miniaturas">
+        <img src="https://images.unsplash.com/photo-1492496913980-501348b61469"
+             data-imagem="https://images.unsplash.com/photo-1492496913980-501348b61469"
+             onclick="trocarImagem(this)"
+             style="border:2px solid #2e7d32;">
+
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6"
+             data-imagem="https://images.unsplash.com/photo-1501004318641-b39e6451bec6"
+             onclick="trocarImagem(this)">
+
+        <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735"
+             data-imagem="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735"
+             onclick="trocarImagem(this)">
+    </div>
+
+    <div class="info">
+        <h3>Kit Sustentável</h3>
+    </div>
+
+</div>
+
+<!-- PRODUTO 4 -->
+<div class="produto">
+
+    <img class="imagem-principal"
+         src="https://images.unsplash.com/photo-1511497584788-876760111969">
+
+    <div class="miniaturas">
+        <img src="https://images.unsplash.com/photo-1511497584788-876760111969"
+             data-imagem="https://images.unsplash.com/photo-1511497584788-876760111969"
+             onclick="trocarImagem(this)"
+             style="border:2px solid #2e7d32;">
+
+        <img src="https://images.unsplash.com/photo-1463936575829-25148e1db1b8"
+             data-imagem="https://images.unsplash.com/photo-1463936575829-25148e1db1b8"
+             onclick="trocarImagem(this)">
+    </div>
+
+    <div class="info">
+        <h3>Planta Decorativa</h3>
+    </div>
+
+</div>
 
 </section>
 
 <footer>
-    🌍 TiFashion | Cuidando do planeta, uma compra de cada vez.
+🌍 TiFashion | Cuidando do planeta, uma compra de cada vez.
 </footer>
 
 <script>
 function trocarImagem(miniatura){
+    const produto = miniatura.closest(".produto");
+    const imagemPrincipal = produto.querySelector(".imagem-principal");
 
-    const produto = miniatura.closest('.produto');
+    imagemPrincipal.src = miniatura.getAttribute("data-imagem");
 
-    const imagemPrincipal =
-        produto.querySelector('.imagem-principal');
-
-    imagemPrincipal.src = miniatura.src;
-
-    produto.querySelectorAll('.miniaturas img')
-    .forEach(img => {
+    produto.querySelectorAll(".miniaturas img").forEach(img => {
         img.style.border = "2px solid #ddd";
     });
 
-    miniatura.style.border =
-        "2px solid #2e7d32";
+    miniatura.style.border = "2px solid #2e7d32";
 }
 </script>
 
 </body>
 </html>
-```
