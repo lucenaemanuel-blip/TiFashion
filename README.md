@@ -58,13 +58,27 @@ header p{
     transform:translateY(-5px);
 }
 
-.imagem-principal{
-    width:100%;
-    height:450px;
-    object-fit:cover;
-    display:block;
+/* CARROSSEL (ARRASTAR) */
+.carrossel{
+    display:flex;
+    overflow-x:auto;
+    scroll-snap-type:x mandatory;
+    scroll-behavior:smooth;
+    -webkit-overflow-scrolling:touch;
 }
 
+.carrossel::-webkit-scrollbar{
+    display:none;
+}
+
+.carrossel img{
+    min-width:100%;
+    height:450px;
+    object-fit:cover;
+    scroll-snap-align:start;
+}
+
+/* MINIATURAS */
 .miniaturas{
     display:flex;
     justify-content:center;
@@ -84,8 +98,8 @@ header p{
 }
 
 .miniaturas img:hover{
-    border-color:#2e7d32;
     transform:scale(1.05);
+    border-color:#2e7d32;
 }
 
 .info{
@@ -111,7 +125,7 @@ footer{
         width:90%;
     }
 
-    .imagem-principal{
+    .carrossel img{
         height:400px;
     }
 }
@@ -130,22 +144,19 @@ footer{
 <!-- PRODUTO 1 -->
 <div class="produto">
 
-    <img class="imagem-principal"
-         src="WhatsApp Image 2026-06-07 at 8.46.01 PM.jpeg">
+    <div class="carrossel">
+        <img src="WhatsApp Image 2026-06-07 at 8.46.01 PM.jpeg">
+        <img src="WhatsApp Image 2026-06-07 at 8.46.12 PM.jpeg">
+        <img src="WhatsApp Image 2026-06-03 at 3.20.33 PM.jpeg">
+    </div>
 
     <div class="miniaturas">
         <img src="WhatsApp Image 2026-06-07 at 8.46.01 PM.jpeg"
-             data-imagem="WhatsApp Image 2026-06-07 at 8.46.01 PM.jpeg"
-             onclick="trocarImagem(this)"
-             style="border:2px solid #2e7d32;">
-
+             onclick="irParaImagem(this,0)">
         <img src="WhatsApp Image 2026-06-07 at 8.46.12 PM.jpeg"
-             data-imagem="WhatsApp Image 2026-06-07 at 8.46.12 PM.jpeg"
-             onclick="trocarImagem(this)">
-
+             onclick="irParaImagem(this,1)">
         <img src="WhatsApp Image 2026-06-03 at 3.20.33 PM.jpeg"
-             data-imagem="WhatsApp Image 2026-06-03 at 3.20.33 PM.jpeg"
-             onclick="trocarImagem(this)">
+             onclick="irParaImagem(this,2)">
     </div>
 
     <div class="info">
@@ -157,22 +168,19 @@ footer{
 <!-- PRODUTO 2 -->
 <div class="produto">
 
-    <img class="imagem-principal"
-         src="WhatsApp Image 2026-06-07 at 8.45.54 PM.jpeg">
+    <div class="carrossel">
+        <img src="WhatsApp Image 2026-06-07 at 8.45.54 PM.jpeg">
+        <img src="WhatsApp Image 2026-06-07 at 8.46.09 PM.jpeg">
+        <img src="WhatsApp Image 2026-06-03 at 3.20.37 PM.jpeg">
+    </div>
 
     <div class="miniaturas">
         <img src="WhatsApp Image 2026-06-07 at 8.45.54 PM.jpeg"
-             data-imagem="WhatsApp Image 2026-06-07 at 8.45.54 PM.jpeg"
-             onclick="trocarImagem(this)"
-             style="border:2px solid #2e7d32;">
-
+             onclick="irParaImagem(this,0)">
         <img src="WhatsApp Image 2026-06-07 at 8.46.09 PM.jpeg"
-             data-imagem="WhatsApp Image 2026-06-07 at 8.46.09 PM.jpeg"
-             onclick="trocarImagem(this)">
-
+             onclick="irParaImagem(this,1)">
         <img src="WhatsApp Image 2026-06-03 at 3.20.37 PM.jpeg"
-             data-imagem="WhatsApp Image 2026-06-03 at 3.20.37 PM.jpeg"
-             onclick="trocarImagem(this)">
+             onclick="irParaImagem(this,2)">
     </div>
 
     <div class="info">
@@ -184,49 +192,23 @@ footer{
 <!-- PRODUTO 3 -->
 <div class="produto">
 
-    <img class="imagem-principal"
-         src="https://images.unsplash.com/photo-1492496913980-501348b61469">
+    <div class="carrossel">
+        <img src="https://images.unsplash.com/photo-1492496913980-501348b61469">
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6">
+        <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735">
+    </div>
 
     <div class="miniaturas">
         <img src="https://images.unsplash.com/photo-1492496913980-501348b61469"
-             data-imagem="https://images.unsplash.com/photo-1492496913980-501348b61469"
-             onclick="trocarImagem(this)"
-             style="border:2px solid #2e7d32;">
-
+             onclick="irParaImagem(this,0)">
         <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6"
-             data-imagem="https://images.unsplash.com/photo-1501004318641-b39e6451bec6"
-             onclick="trocarImagem(this)">
-
+             onclick="irParaImagem(this,1)">
         <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735"
-             data-imagem="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735"
-             onclick="trocarImagem(this)">
+             onclick="irParaImagem(this,2)">
     </div>
 
     <div class="info">
         <h3>Kit Sustentável</h3>
-    </div>
-
-</div>
-
-<!-- PRODUTO 4 -->
-<div class="produto">
-
-    <img class="imagem-principal"
-         src="https://images.unsplash.com/photo-1511497584788-876760111969">
-
-    <div class="miniaturas">
-        <img src="https://images.unsplash.com/photo-1511497584788-876760111969"
-             data-imagem="https://images.unsplash.com/photo-1511497584788-876760111969"
-             onclick="trocarImagem(this)"
-             style="border:2px solid #2e7d32;">
-
-        <img src="https://images.unsplash.com/photo-1463936575829-25148e1db1b8"
-             data-imagem="https://images.unsplash.com/photo-1463936575829-25148e1db1b8"
-             onclick="trocarImagem(this)">
-    </div>
-
-    <div class="info">
-        <h3>Planta Decorativa</h3>
     </div>
 
 </div>
@@ -238,17 +220,23 @@ footer{
 </footer>
 
 <script>
-function trocarImagem(miniatura){
-    const produto = miniatura.closest(".produto");
-    const imagemPrincipal = produto.querySelector(".imagem-principal");
+function irParaImagem(el, index){
+    const produto = el.closest(".produto");
+    const carrossel = produto.querySelector(".carrossel");
 
-    imagemPrincipal.src = miniatura.getAttribute("data-imagem");
+    const largura = carrossel.offsetWidth;
 
-    produto.querySelectorAll(".miniaturas img").forEach(img => {
-        img.style.border = "2px solid #ddd";
+    carrossel.scrollTo({
+        left: largura * index,
+        behavior: "smooth"
     });
 
-    miniatura.style.border = "2px solid #2e7d32";
+    // destaque da miniatura
+    produto.querySelectorAll(".miniaturas img").forEach(img=>{
+        img.style.border="2px solid #ddd";
+    });
+
+    el.style.border="2px solid #2e7d32";
 }
 </script>
 
