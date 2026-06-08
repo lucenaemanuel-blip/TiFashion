@@ -140,8 +140,8 @@ footer{
 
     <div class="produto">
         <div class="carrossel">
-            <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735" alt="Árvore 1">
-            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e" alt="Árvore 2">
+            <img src="WhatsApp Image 2026-06-07 at 8.45.54 PM.jpeg">
+            <img src="WhatsApp Image 2026-06-07 at 8.46.09 PM.jpeg">
             <img src="<img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e" alt="Árvore 2">">
         </div>
 
