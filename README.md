@@ -20,8 +20,9 @@ body{
     background-repeat:no-repeat;
 }
 
+/* HEADER AZUL */
 header{
-    background:rgba(34,139,34,0.9);
+    background:rgba(25, 118, 210, 0.92);
     color:white;
     text-align:center;
     padding:30px;
@@ -58,7 +59,7 @@ header p{
     transform:translateY(-5px);
 }
 
-/* CARROSSEL (ARRASTAR) */
+/* CARROSSEL */
 .carrossel{
     display:flex;
     overflow-x:auto;
@@ -99,21 +100,23 @@ header p{
 
 .miniaturas img:hover{
     transform:scale(1.05);
-    border-color:#2e7d32;
+    border-color:#1976d2;
 }
 
+/* TEXTO */
 .info{
     padding:15px;
     text-align:center;
 }
 
 .info h3{
-    color:#2e7d32;
+    color:#1976d2;
     margin-bottom:10px;
 }
 
+/* FOOTER AZUL */
 footer{
-    background:rgba(34,139,34,0.9);
+    background:rgba(13, 71, 161, 0.95);
     color:white;
     text-align:center;
     padding:15px;
@@ -189,30 +192,6 @@ footer{
 
 </div>
 
-<!-- PRODUTO 3 -->
-<div class="produto">
-
-    <div class="carrossel">
-        <img src="https://images.unsplash.com/photo-1492496913980-501348b61469">
-        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6">
-        <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735">
-    </div>
-
-    <div class="miniaturas">
-        <img src="https://images.unsplash.com/photo-1492496913980-501348b61469"
-             onclick="irParaImagem(this,0)">
-        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6"
-             onclick="irParaImagem(this,1)">
-        <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735"
-             onclick="irParaImagem(this,2)">
-    </div>
-
-    <div class="info">
-        <h3>Kit Sustentável</h3>
-    </div>
-
-</div>
-
 </section>
 
 <footer>
@@ -231,12 +210,11 @@ function irParaImagem(el, index){
         behavior: "smooth"
     });
 
-    // destaque da miniatura
     produto.querySelectorAll(".miniaturas img").forEach(img=>{
         img.style.border="2px solid #ddd";
     });
 
-    el.style.border="2px solid #2e7d32";
+    el.style.border="2px solid #1976d2";
 }
 </script>
 
