@@ -192,14 +192,14 @@ footer{
 
 <div class="produto">
     <div class="carrossel">
-        <img src="https://images.unsplash.com/photo-1511497584788-876760111969">
-        <img src="https://images.unsplash.com/photo-1463936575829-25148e1db1b8">
-        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6">
+        <img src="WhatsApp Image 2026-06-07 at 8.46.02 PM.jpeg">
+        <img src="WhatsApp Image 2026-06-07 at 8.46.09 PM.jpeg">
+        <img src="WhatsApp Image 2026-06-03 at 3.20.38 PM.jpeg">
     </div>
     <div class="miniaturas">
-        <img src="https://images.unsplash.com/photo-1511497584788-876760111969" onclick="irParaImagem(this,0)">
-        <img src="https://images.unsplash.com/photo-1463936575829-25148e1db1b8" onclick="irParaImagem(this,1)">
-        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" onclick="irParaImagem(this,2)">
+        <img src="WhatsApp Image 2026-06-07 at 8.46.02 PM.jpeg" onclick="irParaImagem(this,0)">
+        <img src="WhatsApp Image 2026-06-07 at 8.46.09 PM.jpeg" onclick="irParaImagem(this,1)">
+        <img src="WhatsApp Image 2026-06-03 at 3.20.38 PM.jpeg" onclick="irParaImagem(this,2)">
     </div>
 </div>
 
