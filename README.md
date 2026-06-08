@@ -20,7 +20,7 @@ body{
     background-repeat:no-repeat;
 }
 
-/* HEADER AZUL */
+/* HEADER */
 header{
     background:rgba(25, 118, 210, 0.92);
     color:white;
@@ -38,6 +38,7 @@ header p{
     font-size:1.1rem;
 }
 
+/* LAYOUT */
 .produtos{
     display:flex;
     justify-content:center;
@@ -114,7 +115,7 @@ header p{
     margin-bottom:10px;
 }
 
-/* FOOTER AZUL */
+/* FOOTER */
 footer{
     background:rgba(13, 71, 161, 0.95);
     color:white;
@@ -123,6 +124,7 @@ footer{
     margin-top:20px;
 }
 
+/* RESPONSIVO */
 @media(max-width:768px){
     .produto{
         width:90%;
@@ -146,50 +148,133 @@ footer{
 
 <!-- PRODUTO 1 -->
 <div class="produto">
-
     <div class="carrossel">
         <img src="WhatsApp Image 2026-06-07 at 8.46.01 PM.jpeg">
         <img src="WhatsApp Image 2026-06-07 at 8.46.12 PM.jpeg">
         <img src="WhatsApp Image 2026-06-03 at 3.20.33 PM.jpeg">
     </div>
-
     <div class="miniaturas">
-        <img src="WhatsApp Image 2026-06-07 at 8.46.01 PM.jpeg"
-             onclick="irParaImagem(this,0)">
-        <img src="WhatsApp Image 2026-06-07 at 8.46.12 PM.jpeg"
-             onclick="irParaImagem(this,1)">
-        <img src="WhatsApp Image 2026-06-03 at 3.20.33 PM.jpeg"
-             onclick="irParaImagem(this,2)">
+        <img src="WhatsApp Image 2026-06-07 at 8.46.01 PM.jpeg" onclick="irParaImagem(this,0)">
+        <img src="WhatsApp Image 2026-06-07 at 8.46.12 PM.jpeg" onclick="irParaImagem(this,1)">
+        <img src="WhatsApp Image 2026-06-03 at 3.20.33 PM.jpeg" onclick="irParaImagem(this,2)">
     </div>
-
-    <div class="info">
-        <h3>Garrafa Reutilizável</h3>
-    </div>
-
+    <div class="info"><h3>Garrafa Reutilizável</h3></div>
 </div>
 
 <!-- PRODUTO 2 -->
 <div class="produto">
-
     <div class="carrossel">
         <img src="WhatsApp Image 2026-06-07 at 8.45.54 PM.jpeg">
         <img src="WhatsApp Image 2026-06-07 at 8.46.09 PM.jpeg">
         <img src="WhatsApp Image 2026-06-03 at 3.20.37 PM.jpeg">
     </div>
-
     <div class="miniaturas">
-        <img src="WhatsApp Image 2026-06-07 at 8.45.54 PM.jpeg"
-             onclick="irParaImagem(this,0)">
-        <img src="WhatsApp Image 2026-06-07 at 8.46.09 PM.jpeg"
-             onclick="irParaImagem(this,1)">
-        <img src="WhatsApp Image 2026-06-03 at 3.20.37 PM.jpeg"
-             onclick="irParaImagem(this,2)">
+        <img src="WhatsApp Image 2026-06-07 at 8.45.54 PM.jpeg" onclick="irParaImagem(this,0)">
+        <img src="WhatsApp Image 2026-06-07 at 8.46.09 PM.jpeg" onclick="irParaImagem(this,1)">
+        <img src="WhatsApp Image 2026-06-03 at 3.20.37 PM.jpeg" onclick="irParaImagem(this,2)">
     </div>
+    <div class="info"><h3>Muda de Árvore</h3></div>
+</div>
 
-    <div class="info">
-        <h3>Muda de Árvore</h3>
+<!-- PRODUTOS 3 A 9 -->
+<!-- repetidos já prontos com estrutura igual -->
+
+<div class="produto">
+    <div class="carrossel">
+        <img src="https://images.unsplash.com/photo-1492496913980-501348b61469">
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6">
+        <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735">
     </div>
+    <div class="miniaturas">
+        <img src="https://images.unsplash.com/photo-1492496913980-501348b61469" onclick="irParaImagem(this,0)">
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" onclick="irParaImagem(this,1)">
+        <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735" onclick="irParaImagem(this,2)">
+    </div>
+    <div class="info"><h3>Produto 3</h3></div>
+</div>
 
+<div class="produto">
+    <div class="carrossel">
+        <img src="https://images.unsplash.com/photo-1511497584788-876760111969">
+        <img src="https://images.unsplash.com/photo-1463936575829-25148e1db1b8">
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6">
+    </div>
+    <div class="miniaturas">
+        <img src="https://images.unsplash.com/photo-1511497584788-876760111969" onclick="irParaImagem(this,0)">
+        <img src="https://images.unsplash.com/photo-1463936575829-25148e1db1b8" onclick="irParaImagem(this,1)">
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" onclick="irParaImagem(this,2)">
+    </div>
+    <div class="info"><h3>Produto 4</h3></div>
+</div>
+
+<div class="produto">
+    <div class="carrossel">
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6">
+        <img src="https://images.unsplash.com/photo-1492496913980-501348b61469">
+        <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735">
+    </div>
+    <div class="miniaturas">
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" onclick="irParaImagem(this,0)">
+        <img src="https://images.unsplash.com/photo-1492496913980-501348b61469" onclick="irParaImagem(this,1)">
+        <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735" onclick="irParaImagem(this,2)">
+    </div>
+    <div class="info"><h3>Produto 5</h3></div>
+</div>
+
+<div class="produto">
+    <div class="carrossel">
+        <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735">
+        <img src="https://images.unsplash.com/photo-1511497584788-876760111969">
+        <img src="https://images.unsplash.com/photo-1463936575829-25148e1db1b8">
+    </div>
+    <div class="miniaturas">
+        <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735" onclick="irParaImagem(this,0)">
+        <img src="https://images.unsplash.com/photo-1511497584788-876760111969" onclick="irParaImagem(this,1)">
+        <img src="https://images.unsplash.com/photo-1463936575829-25148e1db1b8" onclick="irParaImagem(this,2)">
+    </div>
+    <div class="info"><h3>Produto 6</h3></div>
+</div>
+
+<div class="produto">
+    <div class="carrossel">
+        <img src="https://images.unsplash.com/photo-1511497584788-876760111969">
+        <img src="https://images.unsplash.com/photo-1492496913980-501348b61469">
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6">
+    </div>
+    <div class="miniaturas">
+        <img src="https://images.unsplash.com/photo-1511497584788-876760111969" onclick="irParaImagem(this,0)">
+        <img src="https://images.unsplash.com/photo-1492496913980-501348b61469" onclick="irParaImagem(this,1)">
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" onclick="irParaImagem(this,2)">
+    </div>
+    <div class="info"><h3>Produto 7</h3></div>
+</div>
+
+<div class="produto">
+    <div class="carrossel">
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6">
+        <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735">
+        <img src="https://images.unsplash.com/photo-1492496913980-501348b61469">
+    </div>
+    <div class="miniaturas">
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" onclick="irParaImagem(this,0)">
+        <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735" onclick="irParaImagem(this,1)">
+        <img src="https://images.unsplash.com/photo-1492496913980-501348b61469" onclick="irParaImagem(this,2)">
+    </div>
+    <div class="info"><h3>Produto 8</h3></div>
+</div>
+
+<div class="produto">
+    <div class="carrossel">
+        <img src="https://images.unsplash.com/photo-1463936575829-25148e1db1b8">
+        <img src="https://images.unsplash.com/photo-1511497584788-876760111969">
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6">
+    </div>
+    <div class="miniaturas">
+        <img src="https://images.unsplash.com/photo-1463936575829-25148e1db1b8" onclick="irParaImagem(this,0)">
+        <img src="https://images.unsplash.com/photo-1511497584788-876760111969" onclick="irParaImagem(this,1)">
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" onclick="irParaImagem(this,2)">
+    </div>
+    <div class="info"><h3>Produto 9</h3></div>
 </div>
 
 </section>
