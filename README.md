@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
@@ -46,7 +47,7 @@ header p{
 }
 
 .produto{
-    width:280px;
+    width:280px; /* largura original */
     background:rgba(255,255,255,0.95);
     border-radius:15px;
     overflow:hidden;
@@ -75,7 +76,7 @@ header p{
 .carrossel img{
     flex:0 0 100%;
     width:100%;
-    height:220px;
+    height:450px; /* imagem mais comprida */
     object-fit:cover;
     scroll-snap-align:start;
 }
@@ -108,6 +109,10 @@ footer{
     .produto{
         width:90%;
     }
+
+    .carrossel img{
+        height:400px;
+    }
 }
 </style>
 </head>
@@ -123,9 +128,9 @@ footer{
 
     <div class="produto">
         <div class="carrossel">
-            <img src="WhatsApp Image 2026-06-07 at 8.46.01 PM.jpeg">
-            <img src="WhatsApp Image 2026-06-07 at 8.46.12 PM.jpeg">
-            <img src="WhatsApp Image 2026-06-03 at 3.20.33 PM.jpeg">
+            <img src="WhatsApp Image 2026-06-07 at 8.46.01 PM.jpeg" alt="Garrafa 1">
+            <img src="WhatsApp Image 2026-06-07 at 8.46.12 PM.jpeg" alt="Garrafa 2">
+            <img src="WhatsApp Image 2026-06-03 at 3.20.33 PM.jpeg" alt="Garrafa 3">
         </div>
 
         <div class="info">
