@@ -1,3 +1,5 @@
+```html
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
@@ -46,7 +48,7 @@ header p{
 }
 
 .produto{
-    width:280px; /* largura original */
+    width:280px;
     background:rgba(255,255,255,0.95);
     border-radius:15px;
     overflow:hidden;
@@ -75,9 +77,33 @@ header p{
 .carrossel img{
     flex:0 0 100%;
     width:100%;
-    height:450px; /* imagem mais comprida */
+    height:450px;
     object-fit:cover;
     scroll-snap-align:start;
+}
+
+/* Miniaturas */
+.miniaturas{
+    display:flex;
+    justify-content:center;
+    gap:8px;
+    padding:10px;
+    background:#fff;
+}
+
+.miniaturas img{
+    width:55px;
+    height:55px;
+    object-fit:cover;
+    border-radius:6px;
+    border:2px solid #ddd;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.miniaturas img:hover{
+    border-color:#2e7d32;
+    transform:scale(1.05);
 }
 
 .info{
@@ -88,12 +114,6 @@ header p{
 .info h3{
     color:#2e7d32;
     margin-bottom:10px;
-}
-
-.preco{
-    font-size:1.5rem;
-    color:#1b5e20;
-    font-weight:bold;
 }
 
 footer{
@@ -125,8 +145,15 @@ footer{
 
 <section class="produtos">
 
+    <!-- Produto 1 -->
     <div class="produto">
         <div class="carrossel">
+            <img src="WhatsApp Image 2026-06-07 at 8.46.01 PM.jpeg">
+            <img src="WhatsApp Image 2026-06-07 at 8.46.12 PM.jpeg">
+            <img src="WhatsApp Image 2026-06-03 at 3.20.33 PM.jpeg">
+        </div>
+
+        <div class="miniaturas">
             <img src="WhatsApp Image 2026-06-07 at 8.46.01 PM.jpeg">
             <img src="WhatsApp Image 2026-06-07 at 8.46.12 PM.jpeg">
             <img src="WhatsApp Image 2026-06-03 at 3.20.33 PM.jpeg">
@@ -137,8 +164,15 @@ footer{
         </div>
     </div>
 
+    <!-- Produto 2 -->
     <div class="produto">
         <div class="carrossel">
+            <img src="WhatsApp Image 2026-06-07 at 8.45.54 PM.jpeg">
+            <img src="WhatsApp Image 2026-06-07 at 8.46.09 PM.jpeg">
+            <img src="WhatsApp Image 2026-06-03 at 3.20.37 PM.jpeg">
+        </div>
+
+        <div class="miniaturas">
             <img src="WhatsApp Image 2026-06-07 at 8.45.54 PM.jpeg">
             <img src="WhatsApp Image 2026-06-07 at 8.46.09 PM.jpeg">
             <img src="WhatsApp Image 2026-06-03 at 3.20.37 PM.jpeg">
@@ -149,11 +183,18 @@ footer{
         </div>
     </div>
 
+    <!-- Produto 3 -->
     <div class="produto">
         <div class="carrossel">
-            <img src="https://images.unsplash.com/photo-1492496913980-501348b61469" alt="Kit 1">
-            <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" alt="Kit 2">
-            <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" alt="Kit 2">
+            <img src="https://images.unsplash.com/photo-1492496913980-501348b61469">
+            <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6">
+            <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6">
+        </div>
+
+        <div class="miniaturas">
+            <img src="https://images.unsplash.com/photo-1492496913980-501348b61469">
+            <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6">
+            <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6">
         </div>
 
         <div class="info">
@@ -161,10 +202,16 @@ footer{
         </div>
     </div>
 
+    <!-- Produto 4 -->
     <div class="produto">
         <div class="carrossel">
-            <img src="https://images.unsplash.com/photo-1511497584788-876760111969" alt="Planta 1">
-            <img src="https://images.unsplash.com/photo-1463936575829-25148e1db1b8" alt="Planta 2">
+            <img src="https://images.unsplash.com/photo-1511497584788-876760111969">
+            <img src="https://images.unsplash.com/photo-1463936575829-25148e1db1b8">
+        </div>
+
+        <div class="miniaturas">
+            <img src="https://images.unsplash.com/photo-1511497584788-876760111969">
+            <img src="https://images.unsplash.com/photo-1463936575829-25148e1db1b8">
         </div>
 
         <div class="info">
@@ -180,3 +227,4 @@ footer{
 
 </body>
 </html>
+```
