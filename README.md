@@ -181,12 +181,12 @@ footer{
     <div class="carrossel">
         <img src="https://images.unsplash.com/photo-1492496913980-501348b61469">
         <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6">
-        <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735">
+        <img src="WhatsApp Image 2026-06-03 at 3.20.35 PM.jpeg">
     </div>
     <div class="miniaturas">
         <img src="https://images.unsplash.com/photo-1492496913980-501348b61469" onclick="irParaImagem(this,0)">
         <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" onclick="irParaImagem(this,1)">
-        <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735" onclick="irParaImagem(this,2)">
+        <img src="WhatsApp Image 2026-06-03 at 3.20.35 PM.jpeg" onclick="irParaImagem(this,2)">
     </div>
 </div>
 
