@@ -142,6 +142,7 @@ footer{
         <div class="carrossel">
             <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735" alt="Árvore 1">
             <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e" alt="Árvore 2">
+            <img src="<img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e" alt="Árvore 2">">
         </div>
 
         <div class="info">
