@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
@@ -153,6 +152,7 @@ footer{
     <div class="produto">
         <div class="carrossel">
             <img src="https://images.unsplash.com/photo-1492496913980-501348b61469" alt="Kit 1">
+            <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" alt="Kit 2">
             <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" alt="Kit 2">
         </div>
 
