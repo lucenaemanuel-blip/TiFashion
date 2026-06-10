@@ -134,6 +134,29 @@ footer{
         height:400px;
     }
 }
+    /* BOTÃO OFERTAS */
+.btn-ofertas{
+    text-align:center;
+    margin:40px 0;
+}
+
+.btn-ofertas a{
+    display:inline-block;
+    background:#ff9800;
+    color:white;
+    text-decoration:none;
+    padding:18px 35px;
+    font-size:1.2rem;
+    font-weight:bold;
+    border-radius:50px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.3);
+    transition:0.3s;
+}
+
+.btn-ofertas a:hover{
+    background:#f57c00;
+    transform:scale(1.05);
+}
 </style>
 </head>
 
@@ -229,10 +252,12 @@ footer{
         <img src="WhatsApp Image 2026-06-07 at 8.46.46 PM.jpeg" onclick="irParaImagem(this,2)">
         <img src="WhatsApp Image 2026-06-07 at 8.46.14 PM.jpeg" onclick="irParaImagem(this,3)">
      </div>
-</div>
+     <div class="btn-ofertas">
+    <a href="ofertas.html">VEJA OUTRAS DE NOSSAS OFERTAS!</a>
+    </div>
 
 </section>
-
+</div>
 <footer>
 🌍 TiFashion | Cuidando do planeta, uma compra de cada vez.
 </footer>
