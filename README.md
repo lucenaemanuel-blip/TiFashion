@@ -253,7 +253,7 @@ footer{
         <img src="WhatsApp Image 2026-06-07 at 8.46.14 PM.jpeg" onclick="irParaImagem(this,3)">
      </div>
      <div class="btn-ofertas">
-    <a href="ofertas.html">VEJA OUTRAS DE NOSSAS OFERTAS!</a>
+    <a href="https://drive.google.com/drive/folders/1MhF224-PINSk77wg1iMx9Tfiz1HtOmR3">VEJA OUTRAS DE NOSSAS OFERTAS!</a>
     </div>
 
 </div>
