@@ -256,7 +256,6 @@ footer{
     <a href="ofertas.html">VEJA OUTRAS DE NOSSAS OFERTAS!</a>
     </div>
 
-</section>
 </div>
 <footer>
 🌍 TiFashion | Cuidando do planeta, uma compra de cada vez.
