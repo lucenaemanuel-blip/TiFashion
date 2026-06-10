@@ -227,7 +227,9 @@ footer{
         <img src="WhatsApp Image 2026-06-07 at 8.45.57 PM.jpeg" onclick="irParaImagem(this,0)">
         <img src="WhatsApp Image 2026-06-07 at 8.46.06 PM.jpeg" onclick="irParaImagem(this,1)">
         <img src="WhatsApp Image 2026-06-07 at 8.46.46 PM.jpeg" onclick="irParaImagem(this,2)">
-        <img src="WhatsApp Image 2026-06-07 at 8.46.46 PM.jpeg" onclick="irParaImagem(this,3)">
+        <img src="WhatsApp Image 2026-06-07 at 8.46.14 PM.jpeg" onclick="irParaImagem(this,3)">
+        <img src="WhatsApp Image 2026-06-07 at 8.46.47 PM.jpeg" onclick="irParaImagem(this,3)">
+        <img src="WhatsApp Image 2026-06-07 at 8.46.52 PM.jpeg" onclick="irParaImagem(this,3)">
     </div>
 </div>
 
