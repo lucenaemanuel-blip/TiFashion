@@ -233,45 +233,6 @@ footer{
     </div>
 </div>
 
-<div class="produto">
-    <div class="carrossel">
-        <img src="https://images.unsplash.com/photo-1511497584788-876760111969">
-        <img src="https://images.unsplash.com/photo-1492496913980-501348b61469">
-        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6">
-    </div>
-    <div class="miniaturas">
-        <img src="https://images.unsplash.com/photo-1511497584788-876760111969" onclick="irParaImagem(this,0)">
-        <img src="https://images.unsplash.com/photo-1492496913980-501348b61469" onclick="irParaImagem(this,1)">
-        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" onclick="irParaImagem(this,2)">
-    </div>
-</div>
-
-<div class="produto">
-    <div class="carrossel">
-        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6">
-        <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735">
-        <img src="https://images.unsplash.com/photo-1492496913980-501348b61469">
-    </div>
-    <div class="miniaturas">
-        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" onclick="irParaImagem(this,0)">
-        <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735" onclick="irParaImagem(this,1)">
-        <img src="https://images.unsplash.com/photo-1492496913980-501348b61469" onclick="irParaImagem(this,2)">
-    </div>
-</div>
-
-<div class="produto">
-    <div class="carrossel">
-        <img src="https://images.unsplash.com/photo-1463936575829-25148e1db1b8">
-        <img src="https://images.unsplash.com/photo-1511497584788-876760111969">
-        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6">
-    </div>
-    <div class="miniaturas">
-        <img src="https://images.unsplash.com/photo-1463936575829-25148e1db1b8" onclick="irParaImagem(this,0)">
-        <img src="https://images.unsplash.com/photo-1511497584788-876760111969" onclick="irParaImagem(this,1)">
-        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" onclick="irParaImagem(this,2)">
-    </div>
-</div>
-
 </section>
 
 <footer>
